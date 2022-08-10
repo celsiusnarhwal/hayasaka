@@ -1,5 +1,9 @@
 # Hayasaka
 
+<a href="https://npmjs.com/package/hayasaka"><img alt="npm" src="https://img.shields.io/npm/v/hayasaka?logo=npm&style=for-the-badge"></a>
+<a href="https://github.com/celsiusnarhwal/hayasaka/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/celsiusnarhwal/hayasaka?color=orange&label=latest%20release&logo=github&style=for-the-badge"></a>
+<a href="https://github.com/celsiusnarhwal/hayasaka/blob/master/LICENSE.md"><img alt="NPM" src="https://img.shields.io/npm/l/hayasaka?color=%2303cb98&style=for-the-badge"></a>
+
 Hayasaka generates secure keys from your command line.
 
 ## Installation
