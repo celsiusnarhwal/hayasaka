@@ -1,0 +1,23 @@
+{
+  "name": "hayasaka",
+  "version": "1.0.0",
+  "description": "Generate secure keys from your command line",
+  "bin": {
+    "hayasaka": "hayasaka.mjs"
+  },
+  "main": "hayasaka.mjs",
+  "keywords": [
+    "security",
+    "keys",
+    "cli"
+  ],
+  "author": "celsius narhwal",
+  "homepage": "https://github.com/celsiusnarhwal/hayasaka",
+  "repository": "github::celsiusnarhwal/hayasaka",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^6.1.3"
+  }
+}
