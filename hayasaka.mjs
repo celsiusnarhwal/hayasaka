@@ -105,7 +105,7 @@ const optionDefinitions = [
         name: "help",
         alias: "h",
         type: Boolean,
-        description: "Print this help message."
+        description: "Show this help message."
     }
 ]
 
