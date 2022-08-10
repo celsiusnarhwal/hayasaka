@@ -16,7 +16,7 @@ You must install Hayasaka globally to be able to use it from the command line.
 - `-n, --number`: The number of keys to generate. Defaults to, and must be at least, 1.
 - `-c, --copy`: Copy the key to the clipboard.
 - `-f, --file`: The file to write the key to.
-- `-r, --redact`: Don't print the key to the console.
+- `-r, --redact`: Redact the key from the console.
 - `-h, --help`: Show the help message.
 
 ## Key Strengths
@@ -34,18 +34,18 @@ Hayasaka supports 10 key strengths - four "standard" strengths and six "special"
 
 ### Special Strengths
 
-| **Strength** | **Description**                                                                                                     | **Length** | **Example**                                                                        | **URL Safe?** |
-|--------------|---------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------|---------------|
-| `wpa160`     | 160-bit WPA encryption keys.                                                                                        | 20         | <code>u}EE_B`Wvir>Xt&&#124;6&#124;D[</code>                                        | No            |
-| `wpa504`     | 504-bit WPA encryption keys.                                                                                        | 63         | <code>m^v,Y&E'~T^&#*3SL~OWgP&1cLVEj{2^k&#124; t!@dpkJESmtV-)=0yb@A7.vXb1N0a</code> | No            |
-| `wep64`      | 64-bit WEP encryption keys.                                                                                         | 5          | `C116B`                                                                            | Yes           |
-| `wep152`     | 152-bit WEP encryption keys.                                                                                        | 16         | `B7F7783BBBE5F9DE`                                                                 | Yes           |
-| `wep256`     | 256-bit WEP encryption keys.                                                                                        | 29         | `1A9C47C8A924D69F17EFD991A532C`                                                    | Yes           |
+| **Strength** | **Description**                                                                                                     | **Length** | **Example**                                                                         | **URL Safe?** |
+|--------------|---------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------|---------------|
+| `wpa160`     | 160-bit WPA encryption keys.                                                                                        | 20         | <code>u}EE_B`Wvir>Xt&&#124;6&#124;D[</code>                                         | No            |
+| `wpa504`     | 504-bit WPA encryption keys.                                                                                        | 63         | <code>=sK(g,<L?q&#124;$M^VMOuaBMe-D*<==13L59N5S0,DX4\`zDBRz[4S>PP_p$p4\`P(EG</code> | No            |
+| `wep64`      | 64-bit WEP encryption keys.                                                                                         | 5          | `C116B`                                                                             | Yes           |
+| `wep152`     | 152-bit WEP encryption keys.                                                                                        | 16         | `B7F7783BBBE5F9DE`                                                                  | Yes           |
+| `wep256`     | 256-bit WEP encryption keys.                                                                                        | 29         | `1A9C47C8A924D69F17EFD991A532C`                                                     | Yes           |
 
 
 ## Examples
 
-Generata a `decent` key:
+Generate a `decent` key:
 
 ```bash
 $ hayasaka -s decent
